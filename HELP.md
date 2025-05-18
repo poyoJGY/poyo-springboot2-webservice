@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'com.jgy.book.poyo-springboot2-webservice' is invalid and this project uses 'com.jgy.book.poyo_springboot2_webservice' instead.
+* The original package name 'com.jgy.book.poyo-springboot2-webservice' is invalid and this project uses 'com.jgy.book.springboot' instead.
 
 # Getting Started
 

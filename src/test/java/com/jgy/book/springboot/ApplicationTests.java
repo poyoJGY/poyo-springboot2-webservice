@@ -1,10 +1,10 @@
-package com.jgy.book.poyo_springboot2_webservice;
+package com.jgy.book.springboot;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PoyoSpringboot2WebserviceApplicationTests {
+class ApplicationTests {
 
 	@Test
 	void contextLoads() {
