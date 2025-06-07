@@ -9,6 +9,7 @@ import lombok.NoArgsConstructor;
 @Getter
 @NoArgsConstructor
 @Entity
+@Table(name = "users") // user가 예약어기 때문에 오류 발생 // 로그인 시 err_too_many_redirects 해결
 public class User extends BaseTimeEntity {
 
     @Id
