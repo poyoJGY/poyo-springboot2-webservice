@@ -12,7 +12,6 @@ spring:
   profiles:
     include: oauth
 
-
   jpa:
     hibernate:
       ddl-auto: create
@@ -20,6 +19,9 @@ spring:
       hibernate:
         #        show_sql: true
         format_sql: true
+
+  session:
+    store-type: jdbc
 
 logging:
   level:
