@@ -1,0 +1,41 @@
+spring:
+  application:
+    name: poyo-springboot2-webservice
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  profiles:
+    include: oauth
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        #        show_sql: true
+        format_sql: true
+
+  session:
+    store-type: jdbc
+
+logging:
+  level:
+    org.hibernate.SQL: debug
+
+# Test OAuth
+
+  security:
+    oauth:
+      client:
+        registration:
+          google:
+            client-id: test
+            client-secret: test
+            scope:
+              - profile
+              - email
